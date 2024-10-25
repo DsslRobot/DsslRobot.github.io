@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdssl_robots_website=self.webpackChunkdssl_robots_website||[]).push([[472],{5513:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"A Test","permalink":"/blog/adsf","unlisted":false,"date":"2024-10-25T00:00:00.000Z"}]}')}}]);

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://dsslrobot.github.io/DsslRobot.github.io/blog</id>
+    <id>https://dsslrobot.github.io/blog</id>
     <title>DSSL Robots Blog</title>
     <updated>2024-10-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://dsslrobot.github.io/DsslRobot.github.io/blog"/>
+    <link rel="alternate" href="https://dsslrobot.github.io/blog"/>
     <subtitle>DSSL Robots Blog</subtitle>
-    <icon>https://dsslrobot.github.io/DsslRobot.github.io/img/dssl_log.ico</icon>
+    <icon>https://dsslrobot.github.io/img/dssl_log.ico</icon>
     <entry>
         <title type="html"><![CDATA[Gazebo Troubleshooting]]></title>
-        <id>https://dsslrobot.github.io/DsslRobot.github.io/blog/gazebo_troubleshooting</id>
-        <link href="https://dsslrobot.github.io/DsslRobot.github.io/blog/gazebo_troubleshooting"/>
+        <id>https://dsslrobot.github.io/blog/gazebo_troubleshooting</id>
+        <link href="https://dsslrobot.github.io/blog/gazebo_troubleshooting"/>
         <updated>2024-10-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Some common bugs for gazebo.]]></summary>
         <content type="html"><![CDATA[<p>Some common bugs for gazebo.</p>
 <p>Despite the popularity of many new simulators such as coppeliasim, Issac Gym, etc, Gazebo is still widely used due to its ROS-friendly features.</p>
 <p>However, since the release of Gazeb Ign, the support for Gazebo Classic is terminated. Since Gazebo Ign is not mature now and has few using examples to be learned from, this blog mainly aims at Gazebo Classic.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="startup">Startup<a href="https://dsslrobot.github.io/DsslRobot.github.io/blog/gazebo_troubleshooting#startup" class="hash-link" aria-label="Direct link to Startup" title="Direct link to Startup">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="startup">Startup<a href="https://dsslrobot.github.io/blog/gazebo_troubleshooting#startup" class="hash-link" aria-label="Direct link to Startup" title="Direct link to Startup">​</a></h2>
 <p>When you start gazebo from ROS launch, you may find gazebo is not started or not started properly. As far as I know, this may be caused by the following problem:</p>
 <ol>
 <li>
@@ -39,7 +39,7 @@
 <p>Sometimes you will see an error about port such as <code>Fast_RTPS</code>, this is because your another process is using this port or you set the weired network proxy. I suggest restart your computer and turn down your proxy and try again.</p>
 </li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="simultaion">Simultaion<a href="https://dsslrobot.github.io/DsslRobot.github.io/blog/gazebo_troubleshooting#simultaion" class="hash-link" aria-label="Direct link to Simultaion" title="Direct link to Simultaion">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="simultaion">Simultaion<a href="https://dsslrobot.github.io/blog/gazebo_troubleshooting#simultaion" class="hash-link" aria-label="Direct link to Simultaion" title="Direct link to Simultaion">​</a></h2>
 <ol>
 <li>
 <p>No model loaded</p>
@@ -72,7 +72,7 @@
 <p>This world plugin provides services such as <code>getEntityState</code></p>
 </li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://dsslrobot.github.io/DsslRobot.github.io/blog/gazebo_troubleshooting#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://dsslrobot.github.io/blog/gazebo_troubleshooting#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>Troubleshooting for gazebo is <a href="https://robotics.stackexchange.com/" target="_blank" rel="noopener noreferrer">Robotcis.stackexchange</a>. I strongly suggest the deprecation for gazebo and use more elegant simulator.</p>]]></content>
         <author>
             <name>Wei Bingchuan</name>
@@ -82,8 +82,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[A Test]]></title>
-        <id>https://dsslrobot.github.io/DsslRobot.github.io/blog/blog_test</id>
-        <link href="https://dsslrobot.github.io/DsslRobot.github.io/blog/blog_test"/>
+        <id>https://dsslrobot.github.io/blog/blog_test</id>
+        <link href="https://dsslrobot.github.io/blog/blog_test"/>
         <updated>2024-10-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hello world]]></summary>
         <content type="html"><![CDATA[<p>Hello world</p>

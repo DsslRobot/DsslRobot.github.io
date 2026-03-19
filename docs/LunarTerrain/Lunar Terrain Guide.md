@@ -202,6 +202,31 @@ cd ~/OmniLRS
 # Save as: lunaryard_20m_compiled.usd
 ```
 
+Below is the full list of available options:
+```bash
+Available options in 'environment':
+	largescale
+	largescale_alt_rocks
+	lunalab
+	lunalab4SDG
+	lunalab_deformable
+	lunalab_workshop
+	lunar_terrain
+	lunaryard_20m
+	lunaryard_20m4SDG
+	lunaryard_20m_deformable
+	lunaryard_40m
+	lunaryard_40m_deformable
+	lunaryard_40m_workshop
+	lunaryard_40m_workshop_full
+	lunaryard_80m
+```
+
+Note: For RTX Linux Ubuntu 22.04 PC (DSSL PC) the path to run the command to launch the environment is shown below:
+```bash
+isaac@rtx-titan:~/sparc-isaacsim/OmniLRS$ ~/sparc-isaacsim/isaac-sim-5-1-0/python.sh run.py environment=lunaryard_40m_deformable
+```
+
 ### 2.6 Fix Textures
 To ensure the saved USDs are not red when opened:
 ```bash
